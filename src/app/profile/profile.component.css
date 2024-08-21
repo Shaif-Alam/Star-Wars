@@ -1,0 +1,19 @@
+.border-rounded{
+
+    border-radius: 10px;
+    background-color: #E6E6E6;
+}
+.text-uppercase{
+     color: #239B73;
+     font-weight: bold;
+}
+
+.bg-style{
+     background-color: #E6E6E6;
+}
+.profile_pic{
+    background-color: #C8CDD7;
+}
+.font_style{
+     font-style: italic;
+}

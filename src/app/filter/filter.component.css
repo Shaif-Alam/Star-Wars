@@ -1,0 +1,19 @@
+h3{
+     color: #239B73;
+     font-weight: bold;
+}
+.serach_button{
+     font-weight: bold;
+     background-color: white;
+     color: #239B73;
+     width: 210px;
+     font-size:clamp(16px,1.5vw,20px);
+     border: 2px solid #239B73;
+}
+.serach_button:hover{
+     font-weight: bold;
+     background-color: #239B73;
+     color: white;
+
+}
+

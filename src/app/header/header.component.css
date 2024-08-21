@@ -1,0 +1,12 @@
+.bg-color{
+     background-color: #239B73;
+     color: white;
+}
+
+h2{
+     text-transform: uppercase;
+     font-weight: bold;
+}
+.style{
+      cursor: pointer;
+}

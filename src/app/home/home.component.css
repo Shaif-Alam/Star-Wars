@@ -1,0 +1,17 @@
+.text-uppercase{
+    color: #239B73;
+    font-weight: bold;
+}
+p{
+    font-style: italic;
+}
+.style{
+     cursor: pointer;
+}
+.style:hover{
+     color:#239B73 ;
+}
+
+th{
+    background-color:#F5F5F5 ;
+}
