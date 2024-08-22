@@ -1,4 +1,4 @@
-# SrarWars
+# Srar Wars
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.10.
 
@@ -34,7 +34,7 @@ This project is an Angular application. Follow these steps to set up and run the
 
 ## Getting Started
 
-1. **Clone the Repository**
+1. ## Clone the Repository
    Pull the code from the main branch:
    ```bash
    git clone <YOUR_REPOSITORY_URL>

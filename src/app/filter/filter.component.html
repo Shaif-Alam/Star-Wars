@@ -6,6 +6,45 @@
 
     <div>
         <div class="filter-container">
+          <div class="dropdown mb-2">
+            <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Movies Name
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Action 1</a></li>
+                <li><a class="dropdown-item" href="#">Action 2</a></li>
+                <li><a class="dropdown-item" href="#">Action 3</a></li>
+            </ul>
+        </div>
+          <div class="dropdown mb-2">
+            <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Species
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Action 1</a></li>
+                <li><a class="dropdown-item" href="#">Action 2</a></li>
+                <li><a class="dropdown-item" href="#">Action 3</a></li>
+            </ul>
+        </div>
+          <div class="dropdown mb-2">
+            <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                vehicle            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Action 1</a></li>
+                <li><a class="dropdown-item" href="#">Action 2</a></li>
+                <li><a class="dropdown-item" href="#">Action 3</a></li>
+            </ul>
+        </div>
+          <div class="dropdown mb-2">
+            <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Starships            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Action 1</a></li>
+                <li><a class="dropdown-item" href="#">Action 2</a></li>
+                <li><a class="dropdown-item" href="#">Action 3</a></li>
+            </ul>
+        </div>
+
             <form [formGroup]="filterForm">
               <!-- <div class="form-group">
                 <label for="movie">Movie</label>
@@ -28,8 +67,8 @@
               </div> -->
           
               <div class="form-group">
-                <label for="birthYearStart">Birth Year Start</label>
-                <input id="birthYearStart" type="text" formControlName="birthYear" class="form-control">
+                <label for="birthYearStart" class="birth_year p-2 mb-1">Birth Year</label>
+                <input id="birthYearStart" placeholder="Enter Birth Year" type="text" formControlName="birthYear" class="form-control">
               </div>
           
               <!-- <div class="form-group">
